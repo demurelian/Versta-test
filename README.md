@@ -7,13 +7,13 @@
 git clone https://github.com/demurelian/Versta-test.git
 
 ### 2. Запуск БД и настройка строки подключения в файле Versta-test/appsettings.json
-По скольку проект был разработан на локальной БД MS Sql Server, для корректной работы потребуется поднять свою БД MS Sql Server, изменить в строке подключения сервер (в строке после "Server=...") и имя бд ("Database=...").
+Поскольку проект был разработан на локальной БД MS Sql Server, для корректной работы потребуется поднять свою БД MS Sql Server, изменить в строке подключения сервер (в строке после "Server=...") и имя бд ("Database=...").
 В конце концов строка подключения должна иметь вид "Database": "Server=YourMSSQlServer;Database=YourDatabaseName;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True"
 
 ### 3. Запуск frontend части и добавление адреса, на котором она развернулась в backend.
 В файле Versta-test/Program.cs в строке №13 (policy.WithOrigins("http://localhost:5173");) нужно указать ваш адрес, на котором развернулся frontend, чтобы он имел доступ к backend логике.
 
-Для запуска frontend необходимо (при установленном node.js, используя cmd), находясь в корневой папке проекта
+Для запуска frontend необходимо (при установленном node.js, используя cmd), находясь в корневой папке проекта:
 
 cd frontend
 
