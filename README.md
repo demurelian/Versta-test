@@ -3,6 +3,7 @@
 
 Краткое описание действий, необходимых для запуска проекта:
 1. Клонирование репозитория:
-\```
-https://github.com/demurelian/Versta-test.git
+
+\```bash
+git clone https://github.com/demurelian/Versta-test.git
 \```
