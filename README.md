@@ -28,4 +28,5 @@ dotnet restore
 dotnet run
 
 При правильном выполнении шагов, запуск должен пройти успешно и перед вами откроется следующий вид приложения:
-![GIF](https://giphy.com/gifs/FWjAhJwR5ffffkiCsp)
+
+![GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2d6anByMHJlcTQxZHN5ZWU4bGpodXF5b29zMmpsbThwMWQyMmM4ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FWjAhJwR5ffffkiCsp/giphy.gif)
