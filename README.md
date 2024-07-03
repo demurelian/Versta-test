@@ -2,18 +2,12 @@
 
 1. Форма создания нового заказа (все поля обязательны для заполнения):
 
-Город отправителя
-
-Адрес отправителя
-
-Город получателя
-
-Адрес получателя
-
-Вес груза
-
-Дата забора груза
-
+* Город отправителя
+* Адрес отправителя
+* Город получателя
+* Адрес получателя
+* Вес груза
+* Дата забора груза
 
 3. Форма отображения списка заказов: все созданные заказы отображаются в отдельной форме. Помимо полей, введенных пользователем при создании заказа, отображается автоматически сгенерированный номер заказа.
 
@@ -21,13 +15,9 @@
 
 ### Технологии
 
-ASP.NET 8 
-
-React.JS 
-
-Entity Framework
-
-Microsoft SQL Server
-
+* ASP.NET 8 
+* React.JS 
+* Entity Framework
+* Microsoft SQL Server
 
 ![GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2d6anByMHJlcTQxZHN5ZWU4bGpodXF5b29zMmpsbThwMWQyMmM4ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FWjAhJwR5ffffkiCsp/giphy.gif)
