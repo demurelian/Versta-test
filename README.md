@@ -1,4 +1,4 @@
-Простое Web приложение для приемки заказа на доставку со следующим функционалом:
+### Простое Web приложение для приемки заказа на доставку со следующим функционалом:
 
 1. Форма создания нового заказа (все поля обязательны для заполнения):
 Город отправителя
@@ -12,8 +12,15 @@
 
 3. Форма просмотра созданного заказа в режиме чтения. Должна открываться при клике на заказ в списке заказов.
 
-# Технологии
+### Технологии
+
 ASP.NET 8 
+
 React.JS 
+
 Entity Framework
-База данных может быть любой
+
+Microsoft SQL Server
+
+
+![GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2d6anByMHJlcTQxZHN5ZWU4bGpodXF5b29zMmpsbThwMWQyMmM4ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FWjAhJwR5ffffkiCsp/giphy.gif)
